@@ -1,0 +1,14 @@
+{
+  "name": "vlaivan",
+  "owner": { "name": "Vlad Ivanov" },
+  "metadata": {
+    "description": "Distribution marketplace for the Archai plugin for AI-assisted architecture practice."
+  },
+  "plugins": [
+    {
+      "name": "archai",
+      "source": ".",
+      "description": "AI-assisted architecture practice: an extendable suite of skills for enterprise, domain and solution architects."
+    }
+  ]
+}
