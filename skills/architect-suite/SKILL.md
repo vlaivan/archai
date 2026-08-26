@@ -80,17 +80,17 @@ The vision is a living reference. When accumulated experience suggests the frame
 
 Archai is built to be extended by its community of contributors. To add a skill:
 
-1. Copy `skill-template/` (or the nearest existing skill) as a starting point.
+1. Copy `../../skill-template/` (or the nearest existing skill) as a starting point.
 2. Name it by the convention and give it appropriate metadata.
 3. Write the body to the vision's content guidelines — imperative instructions for Claude, with progressive disclosure. Point shared references to the `architect-foundation` family.
 4. Add an entry to `references/skills-registry.md`.
 5. Open a pull request.
 
-See `CONTRIBUTING.md` (repo root) for the full walkthrough and the quality checklist.
+See `../../CONTRIBUTING.md` for the full walkthrough and the quality checklist.
 
 ### 6. Reviewing a contribution
 
-Before a skill merges or is promoted to **Active**, review it against the vision's content guidelines and the naming and coherence conventions, across the same three dimensions as the `CONTRIBUTING.md` checklist:
+Before a skill merges or is promoted to **Active**, review it against the vision's content guidelines and the naming and coherence conventions, across the same three dimensions as the `../../CONTRIBUTING.md` checklist:
 
 - **Content quality** — well-written and usable by both Claude and a human practitioner; only proven, evidence-backed instruction — no slop.
 - **Structure** — convention-compliant name; appropriate metadata (a third-person description that triggers well); body follows the content guidelines and progressive disclosure.
@@ -140,8 +140,8 @@ Full statements are in `references/vision.md`:
 |---|---|
 | `references/vision.md` | Always — framework, naming, and the metadata & content guidelines |
 | `references/skills-registry.md` | Single source of truth for what skills exist and their status |
-| `CONTRIBUTING.md` (repo root) | When onboarding or reviewing a contribution |
-| `skill-template/` (repo root) | When scaffolding a new skill |
+| `../../CONTRIBUTING.md` | When onboarding or reviewing a contribution |
+| `../../skill-template/` | When scaffolding a new skill |
 
 ---
 

@@ -176,6 +176,7 @@ Write every skill to a common standard, so the suite reads as one system and is 
 - **Substance** — include only concepts and instructions proven in practice and validated by concrete results — no slop. Every instruction should change what Claude does or produces.
 - **Dual audience** — primarily Claude executing the skill, but also a human architecture practitioner reading it; any practitioner should be able to learn from it.
 - **Progressive disclosure** — keep the SKILL.md lean; put long reference material, tables, and worked examples in `references/`, and shared references in the `architect-foundation` family (point to them, never copy).
+- **Reference paths** — write every path relative to the skill's own directory, so it resolves both in the repository and in the installed plugin: `references/<file>.md` for a file in the same skill, `../<skill>/references/<file>.md` for a sibling skill's file, `../<skill>/` for the skill itself, and `../../<file>` for a repo-root file such as CONTRIBUTING.md (one `../` per level — from `references/` it is `../../../`). Never write a repo-root-relative path (`skills/…`) — it breaks once installed, because `skills/` sits at the plugin root.
 - **Formatting** — write Markdown in soft-wrap style: one paragraph per line (no hard line breaks mid-paragraph), a blank line between paragraphs, and code blocks, tables, and YAML frontmatter left intact. Let the editor wrap long lines.
 
 ---
@@ -195,7 +196,7 @@ Write every skill to a common standard, so the suite reads as one system and is 
 
 The suite has moved well beyond its founding skills; the live inventory, status, and routing detail are maintained in the single source of truth:
 
-📄 `architect-suite/references/skills-registry.md`
+📄 `skills-registry.md`
 
 The **base skill** (`architect`), a set of **foundation skills** (`architect-foundation` and its `-<topic>` extensions), and a full set of **functional skills** (`architect-<function>` and its `-<specialisation>` extensions) together cover cross-cutting competencies and every value-cycle phase across all four SECI quadrants. The roadmap is a **contribution backlog** rather than a plan — candidates emerge from real use.
 

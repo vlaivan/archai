@@ -39,7 +39,7 @@ Archai is built to be extended. A new skill should feel like part of the whole �
 ### Skill coherence with suite
 - [ ] Skill is scoped and positioned appropriately in relation to the overall suite framework — not too generic and not too specific for its purpose.
 - [ ] Skill is structurally coherent — shared reference material lives in `architect-foundation` or its extensions, it is not duplicated across skills — skill is under correct `architect-*` functional skill or its extensions.
-- [ ] Skill's potential references to other skills are correct — no broken links exist.
+- [ ] Skill's references to other skills are correct and written relative to the skill's own directory (`../<skill>/…`) — no broken links, no repo-root-relative paths.
 - [ ] Skill is synced with `architect-suite` and skill registry is updated.
 
 ## Review

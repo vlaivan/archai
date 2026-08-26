@@ -23,4 +23,4 @@ Emergent candidates, to create only when a real, recurring need appears: a gener
 
 ## Adding a skill
 
-See `CONTRIBUTING.md`. When a new skill is built, add its row above; when its status changes, update it.
+See `../../../CONTRIBUTING.md`. When a new skill is built, add its row above; when its status changes, update it.
