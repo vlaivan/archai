@@ -6,16 +6,26 @@ This repository is a **single-plugin marketplace**: it *is* the `archai` plugin,
 
 ## Install
 
+Archai is distributed as a single-plugin marketplace on GitHub (`vlaivan/archai`). Install it in whichever Claude surface you use — it is skills-only, so there is nothing to configure afterwards.
+
+### Claude Code (CLI)
+
 ```
-/plugin marketplace add <git-remote-url>
+/plugin marketplace add vlaivan/archai
 /plugin install archai@vlaivan
 ```
+
+### Claude Desktop / claude.ai (UI)
+
+1. Open the plugin settings and choose **Add marketplace**.
+2. In the URL field, enter the repository — `vlaivan/archai`, or the full URL `https://github.com/vlaivan/archai` — and click **Sync**.
+3. Once the `vlaivan` marketplace is added, install the **archai** plugin from it.
 
 ## Layout
 
 ```
 .claude-plugin/
-  marketplace.json          # marketplace 'vlaivan' → this plugin (source ".")
+  marketplace.json          # marketplace 'vlaivan' → this plugin (source "./")
   plugin.json               # plugin 'archai'
 skills/
   architect/                # base skill — practitioner entry point

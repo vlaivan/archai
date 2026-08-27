@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "archai",
-      "source": ".",
+      "source": "./",
       "description": "AI-assisted architecture practice: an extendable suite of skills for enterprise, domain and solution architects."
     }
   ]
