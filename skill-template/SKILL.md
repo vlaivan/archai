@@ -6,7 +6,9 @@ version: v1.0
 ---
 
 <!--
-Write to the vision's content guidelines (skills/architect-suite/references/vision.md): instructions for Claude (imperative), only proven instruction (no slop), progressive disclosure (lean body, detail in references/), readable by both AI and human practitioners. Give the skill appropriate metadata — the `description` is the field that matters most. A skill's position (value-cycle phase, SECI quadrant) lives in the skills registry, not here.
+This is a scaffold, not a conformance spec. The sections below suit a transform-style skill (Inputs → Method → Outputs); a behavioural or dialogue skill legitimately differs in structure — adapt the shape to the skill's nature. What is binding is the content guidelines, not this layout.
+
+Write to the vision's content guidelines (../skills/architect-suite/references/vision.md): instructions for Claude (imperative), only proven instruction (no slop), progressive disclosure (lean body, detail in references/), readable by both AI and human practitioners. Give the skill appropriate metadata — the `description` is the field that matters most. A skill's position (value-cycle phase, SECI quadrant) lives in the skills registry, not here.
 -->
 
 # <Skill title>
