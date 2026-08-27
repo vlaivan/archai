@@ -9,6 +9,7 @@ The single source of truth for the skills that currently exist in Archai. `archi
 | `architect` | Base | ✅ Active | Practitioner entry point — interprets intent, holds context, routes to skills, names gaps |
 | `architect-foundation` | Foundation (generic) | ✅ Active | Shared framework vocabulary and cross-cutting competencies; consulted by other skills |
 | `architect-suite` | Meta | ✅ Active | Build, maintain, and evolve the suite: conventions, registry, contribution |
+| `architect-sparring` | Functional | ✅ Active | Thinking companion — sharpens architectural thinking in dialogue; the suite's primary Socialise skill |
 
 **Status legend:** 🔨 In progress · ✅ Active · 🔁 Under revision · ⚠️ Experimental
 
@@ -16,7 +17,7 @@ The single source of truth for the skills that currently exist in Archai. `archi
 
 Planned skills, added to the table above as each is built and validated:
 
-- Functional skills — `architect-extractor`, `architect-analyst`, `architect-designer`, `architect-planner`, `architect-narrator`, `architect-governor`, `architect-researcher`, `architect-sparring`
+- Functional skills — `architect-extractor`, `architect-analyst`, `architect-designer`, `architect-planner`, `architect-narrator`, `architect-governor`, `architect-researcher`
 - Functional specialists — e.g. `architect-governor-quality`, `architect-exporter` (with `-archimate` / `-drawio` / `-md`), `architect-evaluator-technology`
 
 Emergent candidates, to create only when a real, recurring need appears: a generic `architect-evaluator` parent; `architect-foundation-<topic>` extensions (e.g. an ArchiMate reference).
