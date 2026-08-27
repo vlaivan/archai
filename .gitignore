@@ -15,3 +15,7 @@ Thumbs.db
 # Build artifacts
 *.plugin
 dist/
+
+# Python
+__pycache__/
+*.pyc
