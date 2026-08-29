@@ -37,7 +37,13 @@ For correct ArchiMate element and relationship naming when rendering model conte
 2. **Render by the conventions.** Produce the Markdown following `references/markdown-conventions.md` — mapping each shape the content takes (structure, narrative, records, groupings, relations, sequences, annotations) to the Markdown construct that fits, and applying the fidelity rules. Preserve everything the content carries.
 3. **Flag what could not be rendered.** Note anything dropped, ambiguous, or absent; never render a clean surface over a partial input.
 
-Never emit a deliverable truncated: if it will not fit in one response, segment it or (where the host can write files) write it to a `.md` file, and say which.
+---
+
+## Outputs
+
+A Markdown artefact — clean, faithful, and consistent — rendering the given content by the conventions in `references/markdown-conventions.md`. Its shape follows the content's own shapes (a document, an inventory, a table, a roadmap, a summary — the rendering patterns), not a fixed template; it carries through whatever the content holds and invents nothing it does not.
+
+Delivered inline for a short deliverable, or written to a `.md` file for a large or reusable one (where the host can write files) — say which. Never emit a deliverable truncated: if it will not fit in one response, segment it by section or write it to a file, and say which.
 
 ---
 
