@@ -25,10 +25,8 @@ The single source of truth for the skills that currently exist in Archai. `archi
 
 Planned skills, added to the table above as each is built and validated:
 
-- Functional skills — `architect-planner`, `architect-narrator`, `architect-governor`, `architect-evaluator`, `architect-researcher`
-- Functional specialists — e.g. `architect-governor-quality`, `architect-evaluator-technology`; and further format specialists split out of `architect-exporter` as more output formats are added
-
-Emergent candidates, to create only when a real, recurring need appears: further `architect-foundation-<topic>` and `architect-<function>-<specialisation>` extensions, etc.
+- `architect-planner`, `architect-narrator`, `architect-governor`, `architect-evaluator`, `architect-researcher` — functional skills, in draft.
+- Further specialist extensions (foundation or functional) are added as a real, recurring needs emerge.
 
 ## Adding a skill
 
