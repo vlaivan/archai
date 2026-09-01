@@ -1,6 +1,6 @@
 {
   "name": "archai",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "AI-assisted architecture practice for Claude — an extendable suite of enterprise, domain and solution architecture skills including both foundational architecture competencies and competencies related to specific architecture value cycle phases (incl. discovery, analysis, design, planning & implementation, enactment and governance) — with a meta-skill for community contribution.",
   "author": { "name": "Vlad Ivanov" },
   "keywords": ["architecture", "enterprise-architecture", "domain-architecture", "solution-architecture"]
