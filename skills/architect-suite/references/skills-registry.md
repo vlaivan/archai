@@ -15,6 +15,7 @@ The single source of truth for the skills that currently exist in Archai. `archi
 | `architect-analyst` | Functional | ✅ Active | Analysis engine — turns architectural understanding into findings, a synthesis and prioritised recommendations, with an epistemic tier; current state oriented |
 | `architect-designer` | Functional | ✅ Active | Design engine — turns architectural intent into an architectural model and grounded design decisions; target state oriented |
 | `architect-planner` | Functional | ✅ Active | Sequencing engine — turns a target architecture into transition states and a dependency-aware, wave-structured roadmap; downstream of the designer |
+| `architect-narrator` | Functional | ✅ Active | Communication engine — turns architectural understanding into audience-tailored communication; message-hierarchy discipline, with a preparation mode for framing difficult communications |
 | `architect-exporter` | Functional | ✅ Active | Export layer entry point — determines the target format, secures the best input, and routes to the format specialist; prefers structured input, adapts to loose |
 | `architect-exporter-md` | Functional (specialist) | ✅ Active | Markdown formatting specialist — maps document shapes (structure, narrative, records, groupings, relations, sequences, annotations) to Markdown constructs, faithfully and consistently |
 | `architect-exporter-archimate` | Functional (specialist) | ✅ Active | ArchiMate serializer — a deterministic script emits and validates MEF XML (base model) from structured content |
@@ -26,7 +27,7 @@ The single source of truth for the skills that currently exist in Archai. `archi
 
 Planned skills, added to the table above as each is built and validated:
 
-- `architect-narrator`, `architect-governor`, `architect-evaluator`, `architect-researcher` — functional skills, in draft.
+- `architect-governor`, `architect-evaluator`, `architect-researcher` — functional skills, in draft.
 - Further specialist extensions (foundation or functional) are added as a real, recurring needs emerge.
 
 ## Adding a skill
