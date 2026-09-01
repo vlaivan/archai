@@ -8,6 +8,7 @@
     {
       "name": "archai",
       "source": "./",
+      "version": "0.2.0",
       "description": "AI-assisted architecture practice: an extendable suite of skills for enterprise, domain and solution architects."
     }
   ]
