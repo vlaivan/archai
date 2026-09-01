@@ -6,18 +6,20 @@ The single source of truth for the skills that currently exist in Archai. `archi
 
 | Skill | Layer | Status | Handles |
 |---|---|---|---|
-| `architect-suite` | Meta | ✅ Active | Build, maintain, and evolve the suite: conventions, registry, contribution |
-| `architect` | Base | ✅ Active | Practitioner entry point — interprets intent, holds context, routes to skills, names gaps |
+| `architect-suite` | Meta | ✅ Active | Meta-skill — build, maintain, and evolve the suite; vision, conventions, registry, contribution |
+| `architect` | Base | ✅ Active | Practitioner entry point — orchestrator; interprets intent, holds context, routes to skills, names gaps |
 | `architect-foundation` | Foundation | ✅ Active | Shared framework vocabulary and cross-cutting competencies; consulted by other skills |
-| `architect-foundation-archimate` | Foundation (specialist) | ✅ Active | Shared ArchiMate 3.x metamodel reference; consulted by the extractor and export skills |
-| `architect-sparring` | Functional | ✅ Active | Thinking companion — sharpens architectural thinking in dialogue; the suite's primary Socialise skill |
-| `architect-extractor` | Functional | ✅ Active | Structures source material into ArchiMate-mapped understanding with confidence tiers; entry to the value chain |
+| `architect-foundation-archimate` | Foundation (specialist) | ✅ Active | Shared ArchiMate 3.x metamodel reference; consulted by other skills |
+| `architect-sparring` | Functional | ✅ Active | Thinking companion — sharpens architectural thinking in dialogue; architect's best friend |
+| `architect-extractor` | Functional | ✅ Active | Extraction engine — structures source material into ArchiMate-mapped understanding with confidence tiers; entry to further architecture value chain |
 | `architect-analyst` | Functional | ✅ Active | Analysis engine — turns architectural understanding into findings, a synthesis and prioritised recommendations, with an epistemic tier; current state oriented |
 | `architect-designer` | Functional | ✅ Active | Design engine — turns architectural intent into an architectural model and grounded design decisions; target state oriented |
-| `architect-planner` | Functional | ✅ Active | Sequencing engine — turns a target architecture into transition states and a dependency-aware, wave-structured roadmap; downstream of the designer |
-| `architect-narrator` | Functional | ✅ Active | Communication engine — turns architectural understanding into audience-tailored communication; message-hierarchy discipline, with a preparation mode for framing difficult communications |
-| `architect-researcher` | Functional | ✅ Active | External-evidence engine — grounds architecture work in standards, reference architectures, industry patterns, and peer practice; sourced, tiered findings; callable standalone or mid-flow from any skill |
-| `architect-exporter` | Functional | ✅ Active | Export layer entry point — determines the target format, secures the best input, and routes to the format specialist; prefers structured input, adapts to loose |
+| `architect-planner` | Functional | ✅ Active | Sequencing engine — turns a target architecture into transition states and a dependency-aware, wave-structured roadmap; transition state oriented |
+| `architect-narrator` | Functional | ✅ Active | Communication engine — turns architectural understanding into audience-tailored communication; message-hierarchy discipline, preparation mode for framing communications |
+| `architect-researcher` | Functional | ✅ Active | External-evidence engine — grounds architecture work in standards, reference architectures, industry patterns, and peer practice; sourced, tiered findings |
+| `architect-governor` | Functional | ✅ Active | Governance engine — interprets an assessment against organisational baseline; intent, standards, judgement |
+| `architect-evaluator` | Functional | ✅ Active | Evaluation engine — holds a shared rating shape and routes to subject specialist evaluators; general good practice or organisation-specific criteria |
+| `architect-exporter` | Functional | ✅ Active | Export engine — determines the target format, secures the best input, and routes to the format specialist; prefers structured input, adapts to loose |
 | `architect-exporter-md` | Functional (specialist) | ✅ Active | Markdown formatting specialist — maps document shapes (structure, narrative, records, groupings, relations, sequences, annotations) to Markdown constructs, faithfully and consistently |
 | `architect-exporter-archimate` | Functional (specialist) | ✅ Active | ArchiMate serializer — a deterministic script emits and validates MEF XML (base model) from structured content |
 | `architect-exporter-drawio` | Functional (specialist) | ✅ Active | Draw.io serializer — a deterministic script emits a valid `.drawio` diagram (plain boxes and edges on a grid) from structured content |
@@ -28,7 +30,6 @@ The single source of truth for the skills that currently exist in Archai. `archi
 
 Planned skills, added to the table above as each is built and validated:
 
-- `architect-governor`, `architect-evaluator` — functional skills, in draft.
 - Further specialist extensions (foundation or functional) are added as a real, recurring needs emerge.
 
 ## Adding a skill
